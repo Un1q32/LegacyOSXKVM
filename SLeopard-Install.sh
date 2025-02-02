@@ -1,6 +1,6 @@
 #!/bin/bash
 
-qemu-system-x86_64 -machine pc-q35-6.1,vmport=off,accel=kvm -bios /usr/share/edk2-ovmf/x64/OVMF_CODE.fd \
+qemu-system-x86_64 -machine pc-q35-6.1,vmport=off,accel=kvm -bios ovmf/OVMF_CODE.fd \
 -name "Snow Leopard" \
 -uuid 3159DCE2-A537-47C1-B2C6-FFB44069788C \
 -vga none \
